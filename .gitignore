@@ -1,0 +1,22 @@
+create_dataset/repos
+create_dataset/splits
+create_dataset/bugfix_prompts.jsonl
+local_inference.py
+predictions.json
+
+#axolotl training
+config.yaml
+
+#venv
+runpod
+#local repo of trained model
+bugfix-wizardmath
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
