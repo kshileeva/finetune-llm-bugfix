@@ -45,13 +45,13 @@ results = {
 }
 with open("evaluation_results.json", "w") as f:
     json.dump(results, f, indent=2)
-print("💾 Saved evaluation_results.json")
+print("Saved evaluation_results.json")
 
 plt.figure(figsize=(6,4))
-plt.bar(["Accuracy"], [accuracy], color="teal")
+plt.bar(["Accuracy"], [accuracy], color="blue")
 plt.ylim(0, 1)
 plt.ylabel("Exact Match Accuracy")
-plt.title("Evaluation on Buggy Line Prediction")
+plt.title("Evaluation on Buggy Line prediction")
 plt.tight_layout()
 plt.savefig("eval_accuracy.png")
 print("Saved plot to eval_accuracy.png")
